@@ -3,11 +3,13 @@ public class FirstClass {
         
         makeAnyChange();
         System.out.println("This is first class in G2");
+        System.out.println(me);
     }
 
     private static void makeAnyChange() {
         System.out.println("second duo");
     }
     
-    private String me= "last try";
+    private static String me= "last try";
+
 }
