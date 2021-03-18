@@ -6,5 +6,6 @@ public class FirstClass {
     }
 
     private static void makeAnyChange() {
+        System.out.println("second duo");
     }
 }
